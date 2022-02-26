@@ -94,9 +94,15 @@ p + p {
     -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
 }
 
+
 .btn-border {
     border: 1px solid #26272d;
 }
+
+.btn-white {
+    border: 1px solid #f2f2f2;
+}
+
 
 .btn-fill {
     background-color: #267df4;
@@ -652,11 +658,13 @@ html, body {
 .site-title {
     font-size: 18px;
     line-height: 26px;
-    color: #26272d;
+    color: #f2f2f2;
+      /* color: #26272d;    */
 }
 
 .site-title:hover {
-    color: #26272d;   
+    color: #f2f2f2;
+    /* color: #26272d;    */
 }
 
 .site-title span {
@@ -682,7 +690,8 @@ html, body {
     padding: 0;
     font-size: 16px;
     position: relative;
-    color: #26272d;
+    /* color: #26272d; */
+    color: #f2f2f2;
     line-height: 26px;
 }
 
@@ -779,7 +788,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    background: url(../img/main1.jpg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
     display: table;
@@ -788,7 +797,7 @@ html, body {
 
 .overlay:before {
   content: '';
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(0,0,0,0.5);
   height: 100%;
   width: 100%;
   position: absolute;
@@ -874,7 +883,7 @@ html, body {
 }
 
 .portfolio-hero {
-    background: url(../img/portfolio-hero.jpg) no-repeat center / cover;     
+    background: url(../img/urunler4.jpg) no-repeat center / cover;     
 }
 
 .blog-hero {
@@ -924,7 +933,7 @@ html, body {
 .section-features img {
     position: absolute;
     right: 15px;
-    height: 380px;
+    height: 300px;
 }
 
 /* Section: Services */
